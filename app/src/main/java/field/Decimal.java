@@ -5,7 +5,7 @@ import java.math.RoundingMode;
 
 public final class Decimal extends Real {
 
-    private BigDecimal value;
+    private final BigDecimal value;
 
     public Decimal(double value) {
         this.value = new BigDecimal(String.valueOf(value));

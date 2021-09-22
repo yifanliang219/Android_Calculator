@@ -12,6 +12,7 @@ public class Combinatorics {
     }
 
     public static Field nCr(Field n, Field r) {
+        if(n.compareTo(r) < 0) throw new ArithmeticException("Error(n!): Illegal argument.");
         return factorial(n).div((factorial(r).mul(factorial(n.sub(r)))));
     }
 

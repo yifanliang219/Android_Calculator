@@ -1,5 +1,7 @@
 package field;
 
+import android.annotation.SuppressLint;
+
 import java.math.BigDecimal;
 import java.math.BigInteger;
 
@@ -32,6 +34,7 @@ public final class Complex extends Field {
     }
 
 
+    @SuppressLint("DefaultLocale")
     private String modulusImaginaryPart() {
 
         if (im.isInteger()) {

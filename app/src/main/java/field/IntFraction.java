@@ -1,5 +1,7 @@
 package field;
 
+import android.annotation.SuppressLint;
+
 import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.math.RoundingMode;
@@ -8,7 +10,7 @@ public final class IntFraction extends Real {
 
     public final BigInteger numerator;
     public final BigInteger denominator;
-    private BigDecimal value;
+    private final BigDecimal value;
 
 
     public IntFraction(int value) {
@@ -81,6 +83,7 @@ public final class IntFraction extends Real {
     }
 
 
+    @SuppressLint("DefaultLocale")
     @Override
     public String toString() {
 
