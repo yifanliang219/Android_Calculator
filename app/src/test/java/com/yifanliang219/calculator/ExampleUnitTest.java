@@ -1,4 +1,4 @@
-package com.J1507487.tm470;
+package com.yifanliang219.calculator;
 
 import org.junit.Test;
 

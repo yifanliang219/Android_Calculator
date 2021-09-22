@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.J1507487.tm470">
+    package="com.yifanliang219.calculator">
 
     <application
         android:allowBackup="false"
@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.J1507487.tm470.MainActivity">
+        <activity android:name="com.yifanliang219.calculator.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
